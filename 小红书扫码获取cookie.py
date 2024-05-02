@@ -13,7 +13,7 @@ def get_03ck():
     params = {
         'proxy_ip':'',
     }
-    response = requests.get('http://124.220.65.187:6000/login/init_cookie', params=params)
+    response = requests.get('xxxxx', params=params)
     dic = response.json()
 
     return dic['data']
@@ -36,7 +36,7 @@ def get_code(cookie):
         'proxy_ip':proxy
     }
 
-    r = requests.get('http://124.220.65.187:6000/login/qrcode', params=params)
+    r = requests.get('xxxxxx/login/qrcode', params=params)
     dic = r.json()
     
     decoded_data = dic['data']['img'].replace('data:image/png;base64,','')
@@ -54,7 +54,7 @@ def get_cookie(qr_id,code):
     }
 
     r = requests.get(
-        f'http://124.220.65.187:6000/login/check_qr_scan/{qr_id}/{code}',
+        f'xxxxxxxx{qr_id}/{code}',
         params=params
     )
     print(r.text)

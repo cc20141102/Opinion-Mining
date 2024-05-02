@@ -27,8 +27,7 @@ class OneNote:
 
 
 if __name__ == '__main__':
-    cookie_str = 'abRequestId=c1073d69-ffbf-5d6d-842b-8f79ea55e9a3; a1=18c902db3449n1jhfvfmxscznidmxikelqj3609ce50000599719; webId=95b02d83e58a19bf362fa4e9d21d7e25; gid=yYSj8JfDJ81fyYSj8JfDqA8j44jIyVxihi6CVSdMSuI3fq286C3TdK8882jjWyj84dJ00W0j; web_session=040069b75d8d407d5bcf40861c344bf86db5de; unread={%22ub%22:%226603ef4e000000001202057c%22%2C%22ue%22:%226620d61c0000000003023f1c%22%2C%22uc%22:33}; acw_tc=649231a02f3a34a5505ce5973e8069bb0934c26669080c43a0a6efae0389f347; websectiga=3633fe24d49c7dd0eb923edc8205740f10fdb18b25d424d2a2322c6196d2a4ad; sec_poison_id=c359f5fb-ef40-4f08-9b1c-dbc83800c960; webBuild=4.14.0; xsecappid=xhs-pc-web'
-    
+    cookie_str = ''
 
 
 

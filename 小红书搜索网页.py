@@ -7,7 +7,7 @@ import time
 cookie = 'abRequestId=043ad4ea-c3a9-5765-8174-f60838a18e50; xsecappid=xhs-pc-web; a1=18aad3990b1hop0y548f8szmdbqfp2rm40lxs3bk150000446956; webId=973e6c719cfb61440fc17cd2a37bc958; gid=yY00fqjjYd4YyY00fqjj88qDDyxlU8v24YiY1TyMu6fDAC28iUJF6M88844Kj2K80Y2SJS82; web_session=040069b32f3d1f12d333aad323374b28367e51; webBuild=3.10.6; unread={%22ub%22:%2264f48cc6000000001e02ef97%22%2C%22ue%22:%2265116606000000001f034d9d%22%2C%22uc%22:29}; websectiga=634d3ad75ffb42a2ade2c5e1705a73c845837578aeb31ba0e442d75c648da36a; sec_poison_id=05d82c6b-6f4a-4dd3-a054-170b724c1f25'
 proxy = ''
 def search_notes(proxy,cookie,keyword,page,sort):
-    url = 'http://124.220.65.187:5000/index/search_notes'
+    url = 'http://xxxxxx/index/search_notes'
     json_data = {
             'cookie':cookie,
             'note_type':0,
